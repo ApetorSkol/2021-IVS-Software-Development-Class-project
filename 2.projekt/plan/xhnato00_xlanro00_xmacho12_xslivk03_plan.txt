@@ -1,0 +1,43 @@
+1. Termíny:
+    3.3.2021 - inicializace repozitáře na githubu, vytvoření projektu v IDE
+    10.3.2021 - jednotkové testy pro matematickou knihovnu
+	17.3.2021 - odevzdání plánu
+	25.3.2021 - dodělání funkcí do matematické knihovny podle test driven development
+	1.4.2021 - program na počítání směrodatné odchylky, GUI
+	8.4.2021 - profilování matematické knihovny
+	11.4.2021 - funkční kalkulačka s gui
+	18.4.2021 - tvorba instalačního balíku, dokumentace
+	25.4.2021 - finalizace, zhodnocení
+
+2. Přidělené úkoly: 
+	xhnato00 - testování, profiling, vybrané funkce v mat. knihovně
+	xlanro00 - plán projektu, mockup GUI, GUI
+	xmacho12 - inicializace repozitare, organizace, koordinace, tvorba instalačního balíku
+	xslivko03 - program na výpočet odchylky, uživatelská příručka, vybrané funkce v mat. knihovně
+	společné úkoly - makefile (průběžné úpravy), dokumentace, celkové zhodnocení
+
+3. Zvolený komunikační kanál:
+	Discord server s více členěnými tématickými kanály.
+
+4. Stanovená pravidla pro komunikaci:
+	a)Reakce na příchozí komunikaci do 1 týdne přijetí.
+	b)Komunikace v českém/slovenském jazyce, komentáře ve zdrojovém kódu v anglickém jazyce.
+	c)Žádné vulgarismy.
+
+5. Zvolený systém pro správu verzí:
+	Github
+
+6. Zvolený operační systém:
+	Linux (Ubuntu)
+
+7. Zvolený programovací jazyk:
+	Python 3
+
+8. Zvolený grafický framework:
+	Qt
+
+9. Zvolený IDE:
+	PyCharm
+
+10. Informace o nahlizeni pro kontrolu:
+    Byla nastavena práva pro uživatele ivskontrola (ivs.kontrola@gmail.com)

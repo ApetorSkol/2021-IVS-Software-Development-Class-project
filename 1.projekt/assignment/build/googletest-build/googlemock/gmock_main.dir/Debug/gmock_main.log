@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/googlemock/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/matej/Desktop/┼ákola/2. semester/IVS/1.Projekt/assignment/build/googletest-build/googlemock/CMakeFiles/generate.stamp is up-to-date.
+  gtest-all.cc
+  gmock-all.cc
+  gmock_main.cc
+  Generating Code...
+  gmock_main.vcxproj -> C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\lib\Debug\gmock_maind.lib

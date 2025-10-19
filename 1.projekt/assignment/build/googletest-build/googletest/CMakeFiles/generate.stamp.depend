@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/googletest/CMakeLists.txt
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/googletest/cmake/internal_utils.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPythonInterp.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindThreads.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/CheckLibraryExists.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/cmake-3.10.2-win64-x64/share/cmake-3.10/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/googletest/cmake/Config.cmake.in
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/googletest/cmake/gtest.pc.in
+C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/googletest/cmake/gtest_main.pc.in

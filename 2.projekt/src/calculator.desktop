@@ -1,0 +1,9 @@
+[Desktop Entry]
+
+Type=Application
+Version=1.0
+Name=Calculator
+Exec=ivscalculator
+Icon=ivscalculator.png
+Terminal=false
+Categories=Utility;Calculator;

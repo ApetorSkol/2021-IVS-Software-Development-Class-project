@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QMainWindow" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1000</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1000</width>
+      <height>1000</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="lineWidth">
+     <number>-2</number>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:600;&quot;&gt;Nápověda&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:28pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Ovládání&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic;&quot;&gt;Operácie s jedným vstupom &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt;sú operacie &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic;&quot;&gt;sin, cos, tg, x! , abs   . &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; Tieto operácia sa automatický vykonajú nad vopred zadaným vstupom.&lt;/span&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic;&quot;&gt;Operácie s dvoma  vstupmi &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; sú operácie &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic;&quot;&gt; +    -    &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto'; color:#111111; background-color:#ffffff;&quot;&gt;×&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto'; color:#111111; background-color:#ffffff;&quot;&gt;÷   &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic; vertical-align:super;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; font-style:italic;&quot;&gt;    log   &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt;√ . &lt;/span&gt;&lt;span style=&quot; color:#111111; background-color:#ffffff;&quot;&gt;Tieto operácie potrebujú na vstupe dve hodnoty a výpočet sa vykoná po stlačení tlačídla &lt;/span&gt;&lt;span style=&quot; font-style:italic; color:#111111; background-color:#ffffff;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot; color:#111111; background-color:#ffffff;&quot;&gt; .&lt;/span&gt; &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Operace&lt;/span&gt;&lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Sčítanie ( klávesa + )   &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia súčet dvoch čísiel. Operácia sčítania vyžaduje na vstupe dva čísla. Operácia dokáže sčítať záporné čísla aj desatinné čísla. &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Odčítanie  (klávesa - )   &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia rozdiel dvoch čísiel. Operácia odčítania vyžaduje na vstupe dva čísla. Operácia dokáže odčítať záporné čísla aj desatinné čísla. &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Násobenie  (klávesa &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto'; font-size:large; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt;×&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt; )   &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia súčin dvoch čísiel. Operácia násobenie vyžaduje na vstupe dva čísla. Operácia dokáže násobiť záporné čísla aj desatinné čísla. &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Delenie  (klávesa &lt;/span&gt;&lt;span style=&quot; font-family:'Roboto'; font-size:large; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt;÷&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;)   &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia podiel dvoch čísiel. Operácia delenia vyžaduje na vstupe dva čísla. Operácia dokáže deliť záporné čísla aj desatinné čísla. &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Odmocnina  (klávesa &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt;√ )&lt;/span&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia n-tú odmocninu dvoch čísiel. Operácia odmocniny vyžaduje na vstupe len jedno číslo ale dokáže pracovať aj s dvomi vstupnými hodnotami. Prvá hodnota značí koľkú odmocninu z čísla chceme vyrátať, druhá hodnota značí číslo z ktorého chceme vyrátať odmocninu. Implicitne je zadaná druhá odmocnina. Operácia dokáže odmocniť len nezáporné čísla. Operácia dokáže vyrátať aj desatinná a zápornú odmocninu. &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Umocnenie  (klávesa x&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000; vertical-align:super;&quot;&gt;n&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt; )&lt;/span&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia n-tú mocninu dvoch čísiel. Operácia mocniny vyžaduje na vstupe len jedno číslo ale dokáže pracovať aj s dvomi vstupnými hodnotami. Prvá hodnota značí argument mocniny, druhá hodnota značí exponent mocniny. Implicitne je zadaný argument ako &lt;span style=&quot; font-weight:600;&quot;&gt;e&lt;/span&gt;. Operácia nedokáže umocniť záporné desatinné číslo na iné záporné desatinné číslo. Ostatné kombinácie argumentov by mali fungovať .&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;  &lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Logaritmus  (klávesa log &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt; )&lt;/span&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia n-tý logaritmus dvoch čísiel. Operácia logaritmu vyžaduje na vstupe len jedno číslo ale dokáže pracovať aj s dvomi vstupnými hodnotami. Prvá hodnota značí základ logaritmu, druhá hodnota značí číslo z ktorého sa má logaritmus vyrátať. Implicitne je zadaný základ &lt;span style=&quot; font-weight:600;&quot;&gt;10&lt;/span&gt;. Operácia nedokáže pracovať s nekladným číslami a s argumentom rovným jednej. &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Faktorial   (klávesa x! &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt; )&lt;/span&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácia vracia faktorial daného čísla. Operácia logaritmu vyžaduje na vstupe len jedno číslo. Operácia dokáže pracovať len s prirodzenými číslami a s nulou. &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Sinus , cosinus   (klávesa    sin    cos &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt; )&lt;/span&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácie vracajú sinus a cosinus daného uhla. Operácia logaritmu vyžaduje na vstupe len jedno číslo. Operácia pracuje v &lt;span style=&quot; font-weight:600;&quot;&gt;radianoch.&lt;/span&gt; &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Tangens (klávesa  tg &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt; )&lt;/span&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácie vracajú tangens daného uhla. Operácia logaritmu vyžaduje na vstupe len jedno číslo. Operácia pracuje v &lt;span style=&quot; font-weight:600;&quot;&gt;radianoch. &lt;/span&gt;Operacia tangens nieje definovaná pre k*&lt;span style=&quot; font-family:'Times New Roman,serif'; font-weight:600; color:#666666; background-color:#ffffff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; color:#000000; background-color:#ffffff;&quot;&gt;π&lt;/span&gt; /2 &lt;/p&gt;
+&lt;h3 style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; font-size:large; font-weight:600; color:#000000;&quot;&gt;Absolutná hodnota (klávesa  abs &lt;/span&gt;&lt;span style=&quot; font-size:13.5pt; font-weight:600; color:#111111; background-color:#ffffff;&quot;&gt; )&lt;/span&gt;&lt;span style=&quot; font-size:large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h3&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Operácie vracajú absolutnú hodnotu. Operácia vyžaduje na vstupe len jedno číslo. &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tento software bol vytvorený ako projekt na predmet IVS  študentami Fakutly informačních technologií Vysoké učení technické v Brně &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; color:#000000; background-color:#ffffff;&quot;&gt;Mach Ondřej                xmacho12@stud.fit.vutbr.cz&lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif';&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; color:#000000;&quot;&gt;Lán Rostislav&lt;/span&gt;                &lt;span style=&quot; font-family:'Times New Roman,serif'; color:#000000;&quot;&gt;xlanro00@stud.fit.vutbr.cz&lt;/span&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; color:#000000; background-color:#ffffff;&quot;&gt;Hnatovskyj Vítek         &lt;/span&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; color:#000000;&quot;&gt;xhnato00@stud.fit.vutbr.cz&lt;/span&gt; &lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Times New Roman,serif'; color:#000000;&quot;&gt;Slivka Matej                xslivk03@stud.fit.vutbr.cz&lt;/span&gt; &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

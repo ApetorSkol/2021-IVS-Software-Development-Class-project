@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56173EF9-BCC3-3F71-BCF3-30C499C83AC5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\bin\cmake.exe" "-HC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment" "-BC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build" --check-stamp-file "C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\bin\cmake.exe" "-HC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment" "-BC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build" --check-stamp-file "C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\bin\cmake.exe" "-HC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment" "-BC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build" --check-stamp-file "C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\bin\cmake.exe" "-HC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment" "-BC:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build" --check-stamp-file "C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/googletest-master/CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\cmake-3.10.2-win64-x64\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\ZERO_CHECK.vcxproj">
+      <Project>{43AAE28A-5637-33CA-9B27-0634AC8A88F6}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{E6EB5FC2-03A8-344F-8759-E4EC1B823CCF}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\googlemock\gmock_main.vcxproj">
+      <Project>{4D862DBE-2CE4-378D-AF09-308ED0C0BCCD}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\googletest\gtest.vcxproj">
+      <Project>{3BF87850-7757-3D81-A236-B27DE0B41368}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{3EE55126-F215-33C2-B925-4CB8657E31A2}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

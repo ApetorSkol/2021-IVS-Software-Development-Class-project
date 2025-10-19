@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/matej/Desktop/┼ákola/2. semester/IVS/1.Projekt/assignment/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/matej/Desktop/┼ákola/2. semester/IVS/1.Projekt/assignment/white_box_tests.cpp'
+    is newer than 'C:/Users/matej/Desktop/┼ákola/2. semester/IVS/1.Projekt/assignment/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version  to target Windows 10.0.19042.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/matej/Desktop/┼ákola/2. semester/IVS/1.Projekt/assignment/build

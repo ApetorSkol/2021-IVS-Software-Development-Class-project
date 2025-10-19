@@ -1,0 +1,4 @@
+xhnato00 100 (testování, profiling)
+xlanro00 100 (plán projektu, mockup GUI, GUI)
+xmacho12 100 (organizace, Makefile, tvorba instalačního balíku)
+xslivk03 100 (program na výpočet odchylky, uživatelská příručka, matematická knihovna)

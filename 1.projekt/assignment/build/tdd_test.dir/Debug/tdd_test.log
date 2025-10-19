@@ -1,0 +1,4 @@
+﻿  tdd_code.cpp
+C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\tdd_code.cpp(99): warning C4018: '<': signed/unsigned mismatch
+  tdd_test.vcxproj -> C:\Users\matej\Desktop\Škola\2. semester\IVS\1.Projekt\assignment\build\Debug\tdd_test.exe
+  tdd_test.vcxproj -> C:/Users/matej/Desktop/Škola/2. semester/IVS/1.Projekt/assignment/build/Debug/tdd_test.pdb (Full PDB)

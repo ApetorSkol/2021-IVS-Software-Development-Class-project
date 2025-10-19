@@ -1,0 +1,16 @@
+root = true
+
+# UNIX style newlines in all files
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_size = 4
+
+# Python source code will be indented with 4 spaces
+[*.py]
+charset = utf-8
+indent_style = space
+
+# Makefile has to be indented with tabs
+[Makefile]
+indent_style = tab
