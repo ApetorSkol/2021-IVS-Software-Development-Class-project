@@ -1,3 +1,6 @@
+# 2021-IVS-Software-Development-Class-project
+Vytvorenie celej aplikacie. Aplikacia je v tomto pripade kalkulacka. Zamer prace bolo vidiet ako funguje vyvoj softwaru v praxi.
+
 Prostredi
 ---------
 
